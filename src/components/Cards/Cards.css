@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+}
+
+.row1, .row2{
+    /* padding:3rem 4rem 3rem 4rem;  */
+    overflow: hidden;
+}
+
+

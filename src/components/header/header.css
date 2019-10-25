@@ -1,0 +1,83 @@
+header{
+    width: 100%;
+    height: 20%;
+    background-color: grey;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.main_link{
+    text-decoration: none;
+    color: rgb(182, 175, 175);
+    font-size: 2rem;
+    font-family: "Bauhaus 93" ,Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+}
+.main_link:hover{
+    color:whitesmoke;
+}
+.name{
+    padding: 1rem 5rem 1rem 2rem;
+}
+.logo{
+    margin-bottom: -5px;
+    height: 2rem;
+}
+.logo_what{
+    height: 3rem;
+    font-family: "Digiface", sans-serif;
+    color: whitesmoke;
+    background-color: rgb(143, 142, 142);
+    text-decoration: none;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+.cover{
+    margin-top: -7px;
+    transition: all .3s;
+}
+.cover:hover{
+    color: rgb(143, 142, 142);
+    background-color: whitesmoke;
+}
+.what{
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 1rem 5rem 1rem 2rem; */
+    padding: 1rem 2rem 1rem 5rem;
+    float: right;
+}
+
+.search_bar{
+    padding: 1rem 4rem;
+    text-align: center;
+}
+
+.searchb_form {
+    align-self: center;
+    margin-top: 4px;
+}
+
+.searchb {
+    width: 100vh;
+    font-size: 2rem;
+    height: 5vh;
+    font-family: "Candara" ,Arial, Helvetica, sans-serif;
+    border-radius: 10vh;
+    border: 0;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 0.9);
+    color: rgba(172, 131, 28, 0.746);
+    background-color: rgba(248, 248, 248, 0.856);
+  }
+  
+  .searchb::placeholder {
+    color: rgba(172, 131, 28, 0.746);
+  }
+  
+  .searchb:focus {
+    outline: none;
+  }
