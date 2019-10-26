@@ -2,7 +2,7 @@
 
 ## Instructions
 ```
- * CSS classes local identification name is set to '[name]__[local]__[hash:base64:5]'.
+ * CSS classes' local identification name is set to '[name]__[local]__[hash:base64:5]'.
  * This app uses last.fm API. So before running this app set the API Key in env.js file(Environment Variable- 'API_KEY').
  * User search history is stored in 'history' state.
 ```
