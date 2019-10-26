@@ -6,8 +6,6 @@ import Header from './../../components/header/header';
 import Cards from './../../components/Cards/Cards';
 
 class Radio extends Component {
-    // state = {
-    // }
     render() {
         return (
             <Fragment >
